@@ -4,8 +4,15 @@
     {
         static void Main(string[] args)
         {
+            int test1 = 121;
+            Console.WriteLine(IsPalindrome(test1)); //output => True
 
-           
+            int test2 = -121;
+            Console.WriteLine(IsPalindrome(test1)); //output => False 
+
+            int test3 = 10;
+            Console.WriteLine(IsPalindrome(test1)); //output => False 
+
         }
         public static bool IsPalindrome(int x)
         {
